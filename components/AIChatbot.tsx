@@ -32,8 +32,7 @@ const KNOWLEDGE_BASE = {
   leadership: "Sain Bux (Managing Director & Lead Solutions Architect)",
   location: "Clifton, Karachi, Pakistan",
   contacts: {
-    phoneOffice: "+92 (21) 3587-2400",
-    phoneMobile: "+92 (300) 829-4560",
+    phone: "+92 311 3631569",
     email: "sainbuxseelro11@gmail.com",
     portfolio: "https://sainbux.vercel.app",
     github: "https://github.com/SainBux-HadiSeelro",
@@ -102,7 +101,7 @@ function generateResponse(userText: string): { reply: string; quickReplies?: str
     query.includes("office")
   ) {
     return {
-      reply: `You can reach our leadership team directly:\n\n👤 **Executive:** Sain Bux (Managing Director & Lead Solutions Architect)\n📍 **Office:** Clifton, Karachi, Pakistan\n📞 **Phone:** ${KNOWLEDGE_BASE.contacts.phoneOffice} / ${KNOWLEDGE_BASE.contacts.phoneMobile}\n✉️ **Email:** ${KNOWLEDGE_BASE.contacts.email}\n🌐 **Portfolio:** [sainbux.vercel.app](${KNOWLEDGE_BASE.contacts.portfolio})\n\nWould you like me to take your contact number so Sain Bux or our property team can call you directly?`,
+      reply: `You can reach our leadership team directly:\n\n👤 **Executive:** Sain Bux (Managing Director & Lead Solutions Architect)\n📍 **Office:** Clifton, Karachi, Pakistan\n📞 **Phone:** ${KNOWLEDGE_BASE.contacts.phone}\n✉️ **Email:** ${KNOWLEDGE_BASE.contacts.email}\n🌐 **Portfolio:** [sainbux.vercel.app](${KNOWLEDGE_BASE.contacts.portfolio})\n\nWould you like me to take your contact number so Sain Bux or our property team can call you directly?`,
       quickReplies: ["Yes, schedule a call", "Tell me about Pricing", "Explore Properties"],
     };
   }

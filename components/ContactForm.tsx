@@ -114,13 +114,10 @@ export default function ContactForm() {
                     <Phone className="w-5 h-5" />
                   </div>
                   <div>
-                    <h4 className="text-xs uppercase font-bold text-slate-400">Direct Phone Numbers</h4>
+                    <h4 className="text-xs uppercase font-bold text-slate-400">Direct Phone / Call</h4>
                     <div className="space-y-1 mt-1">
-                      <a href="tel:+922135872400" className="block text-sm font-semibold text-white hover:text-gold-400 transition-colors">
-                        +92 (21) 3587-2400
-                      </a>
-                      <a href="tel:+923008294560" className="block text-sm font-semibold text-white hover:text-gold-400 transition-colors">
-                        +92 (300) 829-4560
+                      <a href="tel:+923113631569" className="block text-sm font-semibold text-white hover:text-gold-400 transition-colors">
+                        +92 311 3631569
                       </a>
                     </div>
                   </div>
