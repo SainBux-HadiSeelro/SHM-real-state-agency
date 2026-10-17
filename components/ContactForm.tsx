@@ -100,10 +100,10 @@ export default function ContactForm() {
                     <User className="w-5 h-5" />
                   </div>
                   <div>
-                    <h4 className="text-xs uppercase font-bold text-slate-400">Contact Executive</h4>
-                    <p className="text-base font-bold text-white">Shabbeer Hussain</p>
+                    <h4 className="text-xs uppercase font-bold text-slate-400">Managing Director</h4>
+                    <p className="text-base font-bold text-white">Sain Bux</p>
                     <span className="inline-block mt-1 text-[11px] font-semibold text-teal-400 bg-teal-500/10 px-2 py-0.5 rounded border border-teal-500/20">
-                      Attention: Mr. Shakeel
+                      Lead Solutions Architect • Clifton, Karachi
                     </span>
                   </div>
                 </div>
@@ -114,27 +114,35 @@ export default function ContactForm() {
                     <Phone className="w-5 h-5" />
                   </div>
                   <div>
-                    <h4 className="text-xs uppercase font-bold text-slate-400">Direct Phone / WhatsApp</h4>
+                    <h4 className="text-xs uppercase font-bold text-slate-400">Direct Phone Numbers</h4>
                     <div className="space-y-1 mt-1">
-                      <a href="tel:+923223557534" className="block text-sm font-semibold text-white hover:text-gold-400 transition-colors">
-                        +92 322 3557534
+                      <a href="tel:+922135872400" className="block text-sm font-semibold text-white hover:text-gold-400 transition-colors">
+                        +92 (21) 3587-2400
                       </a>
-                      <a href="tel:+923333435515" className="block text-sm font-semibold text-white hover:text-gold-400 transition-colors">
-                        +92 333 3435515
+                      <a href="tel:+923008294560" className="block text-sm font-semibold text-white hover:text-gold-400 transition-colors">
+                        +92 (300) 829-4560
                       </a>
                     </div>
                   </div>
                 </div>
 
-                {/* Email Address */}
+                {/* Email Address & Portfolio */}
                 <div className="flex items-start gap-4 p-4 rounded-xl bg-slate-900/80 border border-slate-800">
                   <div className="w-10 h-10 rounded-xl bg-purple-500/10 border border-purple-500/30 flex items-center justify-center text-purple-400 shrink-0">
                     <Mail className="w-5 h-5" />
                   </div>
                   <div>
-                    <h4 className="text-xs uppercase font-bold text-slate-400">Official Email</h4>
+                    <h4 className="text-xs uppercase font-bold text-slate-400">Official Email & Web</h4>
                     <a href="mailto:acmenetwork@gmail.com" className="text-sm font-semibold text-white hover:text-gold-400 transition-colors block mt-1">
                       acmenetwork@gmail.com
+                    </a>
+                    <a
+                      href="https://sainbux.vercel.app"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-xs text-gold-400 hover:underline block mt-0.5"
+                    >
+                      sainbux.vercel.app ↗
                     </a>
                   </div>
                 </div>
@@ -142,7 +150,7 @@ export default function ContactForm() {
               </div>
 
               <div className="p-4 rounded-xl bg-navy-950 border border-gold-500/20 text-xs text-slate-300 leading-relaxed">
-                🚀 <strong className="text-gold-400">Fast-Track Onboarding:</strong> Inquiries submitted below are routed directly to our technical implementation team for immediate review.
+                🚀 <strong className="text-gold-400">Fast-Track Onboarding:</strong> Inquiries submitted below are routed directly to Sain Bux and our property implementation team for immediate review.
               </div>
 
             </div>
@@ -159,7 +167,7 @@ export default function ContactForm() {
                   </div>
                   <h3 className="text-2xl font-bold text-white">Inquiry Submitted Successfully!</h3>
                   <p className="text-sm text-slate-300 max-w-md mx-auto">
-                    Thank you, <strong className="text-gold-400">{formData.name}</strong>. Our lead strategist (Attention: Mr. Shakeel / Shabbeer Hussain) will contact you shortly on <span className="text-slate-100">{formData.phone}</span>.
+                    Thank you, <strong className="text-gold-400">{formData.name}</strong>. Managing Director Sain Bux and our senior real estate team have received your request and will contact you shortly on <span className="text-slate-100">{formData.phone}</span>.
                   </p>
                   <button
                     onClick={() => {
@@ -188,7 +196,7 @@ export default function ContactForm() {
                     </label>
                     <input
                       type="text"
-                      placeholder="e.g. Shakeel Ahmed"
+                      placeholder="e.g. Tariq Khan"
                       value={formData.name}
                       onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                       className={`w-full px-4 py-3 rounded-xl bg-slate-900/90 border text-sm text-white placeholder-slate-500 focus:outline-none transition-colors ${
@@ -206,7 +214,7 @@ export default function ContactForm() {
                   <div className="grid sm:grid-cols-2 gap-5">
                     <div>
                       <label className="block text-xs font-semibold text-slate-300 mb-1.5">
-                        Phone / WhatsApp Number <span className="text-gold-400">*</span>
+                        Direct Phone / Mobile Number <span className="text-gold-400">*</span>
                       </label>
                       <input
                         type="tel"
@@ -230,7 +238,7 @@ export default function ContactForm() {
                       </label>
                       <input
                         type="email"
-                        placeholder="shakeel@agency.com"
+                        placeholder="tariq@example.com"
                         value={formData.email}
                         onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                         className={`w-full px-4 py-3 rounded-xl bg-slate-900/90 border text-sm text-white placeholder-slate-500 focus:outline-none transition-colors ${

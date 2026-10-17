@@ -10,7 +10,7 @@ import Pricing from "@/components/Pricing";
 import Testimonials from "@/components/Testimonials";
 import FAQ from "@/components/FAQ";
 import ContactForm from "@/components/ContactForm";
-import WhatsAppButton from "@/components/WhatsAppButton";
+import AIChatbot from "@/components/AIChatbot";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -29,7 +29,7 @@ export default function Home() {
       <FAQ />
       <ContactForm />
       <Footer />
-      <WhatsAppButton />
+      <AIChatbot />
     </main>
   );
 }

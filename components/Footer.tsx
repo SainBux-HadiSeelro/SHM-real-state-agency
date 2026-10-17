@@ -56,23 +56,36 @@ export default function Footer() {
 
           {/* Col 5: Executive Contact */}
           <div className="space-y-3">
-            <h4 className="text-xs font-bold uppercase text-white tracking-wider">Executive Contact</h4>
+            <h4 className="text-xs font-bold uppercase text-white tracking-wider">Executive Leadership</h4>
             <ul className="space-y-2 text-xs text-slate-300">
               <li className="flex items-center gap-2">
                 <User className="w-3.5 h-3.5 text-gold-400 shrink-0" />
-                <span>Shabbeer Hussain</span>
+                <span className="font-semibold text-white">Sain Bux</span>
               </li>
               <li className="flex items-center gap-2">
                 <Sparkles className="w-3.5 h-3.5 text-teal-400 shrink-0" />
-                <span className="text-[11px] font-semibold text-teal-400">Attention: Mr. Shakeel</span>
+                <span className="text-[11px] text-teal-400">Managing Director • Clifton, Karachi</span>
               </li>
               <li className="flex items-center gap-2">
                 <Phone className="w-3.5 h-3.5 text-gold-400 shrink-0" />
-                <span>+92 322 3557534 / +92 333 3435515</span>
+                <span>+92 (21) 3587-2400 / +92 (300) 829-4560</span>
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="w-3.5 h-3.5 text-gold-400 shrink-0" />
-                <span>acmenetwork@gmail.com</span>
+                <a href="mailto:acmenetwork@gmail.com" className="hover:text-gold-400 transition-colors">
+                  acmenetwork@gmail.com
+                </a>
+              </li>
+              <li className="pt-1">
+                <a
+                  href="https://sainbux.vercel.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1 text-[11px] text-gold-400 hover:underline"
+                >
+                  <span>sainbux.vercel.app</span>
+                  <span>↗</span>
+                </a>
               </li>
             </ul>
           </div>

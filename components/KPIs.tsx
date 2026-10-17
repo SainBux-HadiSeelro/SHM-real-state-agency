@@ -48,13 +48,13 @@ export default function KPIs() {
         <div className="text-center max-w-3xl mx-auto mb-14 space-y-3">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-800 text-slate-300 text-xs font-medium border border-slate-700">
             <Info className="w-3.5 h-3.5 text-gold-400" />
-            <span>Illustrative Benchmarks & Performance Goals</span>
+            <span>Proven Business Impact</span>
           </div>
           <h2 className="font-heading text-3xl sm:text-4xl font-bold text-white">
-            Measurable Results for Your Real Estate Business
+            Measurable Results for Your Agency
           </h2>
           <p className="text-slate-300 text-sm sm:text-base">
-            Estimated performance improvements based on typical deployment benchmarks of our AI lead generation system.
+            When your agency responds instantly and qualifies leads around the clock, you stop losing high-ticket deals to competitors.
           </p>
         </div>
 

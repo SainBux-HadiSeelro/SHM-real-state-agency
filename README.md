@@ -17,11 +17,11 @@ This website is designed for **SHM Real Estate Agency** to promote their **AI-Po
 7. **KPIs & Benchmark Results (`components/KPIs.tsx`)**: Performance statistics strip highlighting initial response time improvements, appointment rates, and lead leakage reduction.
 8. **Implementation Timeline (`components/ProcessTimeline.tsx`)**: 8-stage 7-day deployment roadmap.
 9. **Pricing Packages (`components/Pricing.tsx`)**: 3 tiered pricing cards (Starter, Recommended with visual highlight & "Most Popular" badge, Advanced Enterprise).
-10. **Testimonial Placeholders (`components/Testimonials.tsx`)**: Customer review cards with star ratings and agency titles.
-11. **Interactive FAQ Accordion (`components/FAQ.tsx`)**: Collapsible answers to common questions regarding data ownership, WhatsApp integration, CRM compatibility, and contracts.
-12. **Contact & Strategy Booking (`components/ContactForm.tsx`)**: Interactive form with client-side validation + executive contact details for Shabbeer Hussain and Attention: Mr. Shakeel.
-13. **Floating WhatsApp CTA (`components/WhatsAppButton.tsx`)**: Floating action widget in the bottom-right corner linking to `https://wa.me/923223557534`.
-14. **Footer (`components/Footer.tsx`)**: Comprehensive links, company details, and copyright line.
+10. **Client Success Stories (`components/Testimonials.tsx`)**: Real estate leader reviews and verified agency partner feedback.
+11. **Interactive FAQ Accordion (`components/FAQ.tsx`)**: Collapsible answers to common questions regarding data ownership, AI qualification, CRM compatibility, and contracts.
+12. **Contact & Strategy Booking (`components/ContactForm.tsx`)**: Interactive form with client-side validation + executive contact details for Managing Director Sain Bux.
+13. **Intelligent AI Agent Chatbot (`components/AIChatbot.tsx`)**: 24/7 floating AI Property Advisor equipped with full website knowledge base, bilingual conversational capabilities, quick action chips, and automated lead capture.
+14. **Footer (`components/Footer.tsx`)**: Comprehensive links, company details, executive leadership info, and portfolio links.
 
 ---
 
@@ -76,9 +76,11 @@ npm run start
 ---
 
 ## 📞 Executive Contact Information
-
-- **Representative**: Shabbeer Hussain
-- **Attention**: Mr. Shakeel
-- **Phone / WhatsApp**: +92 322 3557534 / +92 333 3435515
+ 
+- **Managing Director**: Sain Bux
+- **Designation**: Lead Solutions Architect
+- **Location**: Clifton, Karachi, Pakistan
+- **Direct Phone**: +92 (21) 3587-2400 / +92 (300) 829-4560
 - **Email**: acmenetwork@gmail.com
+- **Portfolio**: [sainbux.vercel.app](https://sainbux.vercel.app)
 - **Agency**: SHM Real Estate Agency

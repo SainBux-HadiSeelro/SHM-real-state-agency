@@ -16,7 +16,7 @@ const processSteps = [
   {
     step: "03",
     name: "Setup",
-    desc: "Configure WhatsApp Business API & lead capture widgets.",
+    desc: "Deploy 24/7 AI Chatbot & customized lead capture forms.",
     icon: Sliders,
   },
   {

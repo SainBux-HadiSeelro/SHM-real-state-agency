@@ -42,7 +42,7 @@ export default function Hero() {
             <div className="grid sm:grid-cols-2 gap-3 text-sm text-slate-300 pt-1 max-w-xl mx-auto lg:mx-0">
               <div className="flex items-center gap-2">
                 <CheckCircle2 className="w-4 h-4 text-gold-400 flex-shrink-0" />
-                <span>Instant &lt;60 second WhatsApp & Web response</span>
+                <span>Instant &lt;45s AI Chat & Lead Response</span>
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircle2 className="w-4 h-4 text-gold-400 flex-shrink-0" />
@@ -184,7 +184,7 @@ export default function Hero() {
                   </div>
                   <div className="text-left">
                     <p className="text-xs font-semibold text-white">Instant Lead Sync</p>
-                    <p className="text-[10px] text-slate-400">WhatsApp & Direct Call</p>
+                    <p className="text-[10px] text-slate-400">AI Chat & Direct Call</p>
                   </div>
                 </div>
 

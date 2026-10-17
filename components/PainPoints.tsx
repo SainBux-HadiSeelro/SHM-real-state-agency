@@ -5,14 +5,14 @@ const painPoints = [
     icon: Clock,
     title: "Slow Response Times Lose Buyers",
     description:
-      "78% of property buyers close with the agency that responds first. Taking hours to answer WhatsApp inquiries means losing high-value clients to competitors.",
+      "78% of property buyers close with the agency that responds first. Taking hours to answer inquiries means losing high-value clients to faster competitors.",
     impact: "Lost Commissions Daily",
   },
   {
     icon: AlertTriangle,
     title: "Leads Fall Through the Cracks",
     description:
-      "Scattered leads across WhatsApp chats, call logs, and messy spreadsheets result in forgotten follow-ups and unhandled hot buyer inquiries.",
+      "Scattered inquiries across unorganized inboxes, missed call logs, and messy spreadsheets result in forgotten follow-ups and unhandled hot buyer inquiries.",
     impact: "Zero Follow-up Visibility",
   },
   {

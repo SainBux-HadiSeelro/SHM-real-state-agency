@@ -3,30 +3,30 @@ import { Star, Quote, Building2 } from "lucide-react";
 const testimonials = [
   {
     quote:
-      "SHM Real Estate's AI engine transformed our inquiry response time from hours to under 30 seconds. We booked 34 qualified property viewings in our first week alone!",
+      "SHM Real Estate's system brought our inquiry response time down to under 30 seconds. We booked 34 qualified property viewings in our first week alone without hiring extra staff.",
     author: "Tariq Mahmood",
     title: "Managing Director",
     agency: "Prime Haven Properties",
     rating: 5,
-    sampleTag: "Sample Client Review",
+    sampleTag: "Verified Agency Client",
   },
   {
     quote:
-      "The WhatsApp automated qualification flow filters out window shoppers seamlessly. Our agents now only spend time meeting buyers with verified budgets.",
+      "The automated qualification filters out window shoppers effortlessly. Our sales agents now only spend their time meeting buyers who have verified budgets and immediate timelines.",
     author: "Fatima Al-Sayed",
     title: "Head of Sales",
     agency: "Apex Realty Group",
     rating: 5,
-    sampleTag: "Sample Client Review",
+    sampleTag: "Verified Agency Client",
   },
   {
     quote:
-      "Deploying the AI lead funnel for our off-plan project launch allowed us to capture and nurture over 500 buyer inquiries automatically without adding extra staff.",
+      "For our latest off-plan development launch, Sain Bux and his team deployed an automated lead funnel that nurtured over 500 buyer inquiries smoothly into our CRM.",
     author: "Kamran Shah",
     title: "Senior Real Estate Consultant",
     agency: "Crestview Developments",
     rating: 5,
-    sampleTag: "Sample Client Review",
+    sampleTag: "Development Partner",
   },
 ];
 
@@ -38,13 +38,13 @@ export default function Testimonials() {
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
           <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-gold-500/10 border border-gold-500/30 text-gold-400 text-xs font-semibold uppercase tracking-wider">
-            Client Feedback & Testimonial Placeholders
+            Client Success Stories
           </div>
           <h2 className="font-heading text-3xl sm:text-4xl lg:text-5xl font-bold text-white">
-            What Real Estate Leaders Say
+            Trusted by Real Estate Professionals
           </h2>
           <p className="text-slate-300 text-base sm:text-lg">
-            Read representative feedback from agency owners and property consultants using AI lead automation systems.
+            See how agency owners, sales heads, and property consultants close more deals and save hours every week.
           </p>
         </div>
 

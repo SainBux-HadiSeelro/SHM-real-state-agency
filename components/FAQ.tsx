@@ -10,14 +10,14 @@ const faqs = [
       "You retain 100% full ownership of all customer data, conversation transcripts, phone numbers, and contact details. We enforce strict data privacy standards, and your leads are never shared or resold.",
   },
   {
-    question: "How does the WhatsApp integration work for our agents?",
+    question: "How does the AI Agent Chatbot qualify buyers and sellers?",
     answer:
-      "Our system connects directly to the official Meta WhatsApp Business API. The AI handles instant greeting, property inquiry answering, and budget screening 24/7. When a buyer is qualified or requests a human agent, the conversation is handed off smoothly to your team's WhatsApp inbox.",
+      "Our AI Property Advisor engages every website visitor within seconds. It answers property questions, screens for budget, location, and purchase timeline, and collects verified contact details. High-intent leads are immediately scheduled onto your agent's calendar.",
   },
   {
-    question: "How fast does the AI respond to inbound property leads?",
+    question: "How fast does the AI respond to inbound property inquiries?",
     answer:
-      "The AI system responds in under 45 seconds across Website Chat, WhatsApp, Facebook Lead Ads, and Instagram DMs — ensuring zero delayed responses day or night.",
+      "The AI system responds in under 45 seconds across your website chat, inquiry forms, and campaign landing pages — ensuring no prospective buyer waits or leaves for a competitor.",
   },
   {
     question: "Can this AI system integrate with our existing real estate CRM?",
@@ -27,12 +27,12 @@ const faqs = [
   {
     question: "What are the contract terms and setup commitments?",
     answer:
-      "We offer flexible monthly and annual plans without locking you into mandatory long-term multi-year contracts. Setup takes approximately 7 business days from onboarding.",
+      "We offer flexible monthly and annual plans without locking you into mandatory long-term contracts. Full deployment takes approximately 7 business days from onboarding.",
   },
   {
     question: "What technical support and training are included?",
     answer:
-      "All packages include dedicated technical onboarding, agent training sessions, ongoing system optimization, and fast email/WhatsApp support.",
+      "All packages include dedicated onboarding, agent training sessions, ongoing system tuning, and direct support from Sain Bux and our technical team.",
   },
 ];
 

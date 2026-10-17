@@ -5,11 +5,11 @@ const features = [
     icon: Bot,
     title: "Multi-Channel AI Lead Capture",
     description:
-      "Captures property inquiries instantly from your website, WhatsApp, Instagram, Facebook Ads, and property portal listings in real time.",
+      "Captures property inquiries instantly from your website, inquiry forms, and campaign landing pages in real time.",
     bullets: [
-      "24/7 Web Chat Widget",
-      "Official WhatsApp Business API integration",
-      "Direct Meta / Facebook Lead Form sync",
+      "24/7 Interactive AI Chatbot",
+      "Instant Visitor Intent Recognition",
+      "Direct Meta & Web Form Synchronization",
     ],
     highlight: "Zero Delayed Replies",
   },
@@ -29,9 +29,9 @@ const features = [
     icon: MessageSquareCode,
     title: "Automated Follow-Up Sequences",
     description:
-      "Multi-channel drip campaigns ensure cold leads are re-engaged automatically through personalized WhatsApp messages and email updates.",
+      "Multi-channel drip campaigns ensure cold leads are re-engaged automatically through personalized follow-ups and property updates.",
     bullets: [
-      "Automated WhatsApp voice & text notes",
+      "Personalized follow-up notifications",
       "Missed lead recovery campaigns",
       "New property alerts sent automatically",
     ],
@@ -44,7 +44,7 @@ const features = [
       "Allows qualified buyers to book property viewings directly onto your agents' Google or Outlook calendars without back-and-forth calls.",
     bullets: [
       "Agent availability auto-sync",
-      "Instant SMS & WhatsApp reminders",
+      "Instant email & calendar reminders",
       "No-show reduction workflows",
     ],
     highlight: "Hands-Free Booking",
@@ -55,7 +55,7 @@ const features = [
     description:
       "A unified dashboard tracking every buyer & seller stage from initial inquiry to final contract signing with real-time agent notifications.",
     bullets: [
-      "Instant push & WhatsApp agent alerts",
+      "Instant push & email agent alerts",
       "Lead stage drag-and-drop board",
       "Seamless integration with major CRMs",
     ],
