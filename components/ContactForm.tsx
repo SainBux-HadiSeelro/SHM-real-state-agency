@@ -35,7 +35,7 @@ export default function ContactForm() {
     return newErrors;
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     const validationErrors = validate();
     if (Object.keys(validationErrors).length > 0) {
@@ -46,11 +46,66 @@ export default function ContactForm() {
     setErrors({});
     setIsSubmitting(true);
 
-    // Simulate API request
-    setTimeout(() => {
+    try {
+      // Send lead to /api/contact which delivers directly to sainbuxseelro11@gmail.com
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          ...formData,
+          source: "Website Strategy Form",
+        }),
+      });
+
+      if (!res.ok) {
+        // Fallback direct dispatch
+        await fetch("https://formsubmit.co/ajax/sainbuxseelro11@gmail.com", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            Accept: "application/json",
+          },
+          body: JSON.stringify({
+            _subject: `🏡 New Property Lead: ${formData.name}`,
+            _template: "table",
+            _captcha: "false",
+            "Lead Name": formData.name,
+            "Phone / Contact": formData.phone,
+            "Email Address": formData.email,
+            "Primary Interest": formData.interest,
+            "Message / Request": formData.message,
+          }),
+        });
+      }
+    } catch (err) {
+      console.error("Form dispatch error, attempting fallback:", err);
+      try {
+        await fetch("https://formsubmit.co/ajax/sainbuxseelro11@gmail.com", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            Accept: "application/json",
+          },
+          body: JSON.stringify({
+            _subject: `🏡 New Property Lead: ${formData.name}`,
+            _template: "table",
+            _captcha: "false",
+            "Lead Name": formData.name,
+            "Phone / Contact": formData.phone,
+            "Email Address": formData.email,
+            "Primary Interest": formData.interest,
+            "Message / Request": formData.message,
+          }),
+        });
+      } catch (fallbackErr) {
+        console.error("Fallback error:", fallbackErr);
+      }
+    } finally {
       setIsSubmitting(false);
       setSubmitted(true);
-    }, 1000);
+    }
   };
 
   return (

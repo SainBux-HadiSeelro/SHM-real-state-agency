@@ -262,6 +262,22 @@ export default function AIChatbot() {
       };
       setMessages((prev) => [...prev, botMsg]);
       setIsTyping(false);
+
+      // If contact information was detected, forward lead directly to sainbuxseelro11@gmail.com
+      if (leadCaptured) {
+        fetch("/api/contact", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            name: "AI Chatbot Visitor",
+            phone: text,
+            email: "Provided in live conversation",
+            interest: "Live AI Property Chat Lead",
+            message: `Lead provided contact details in chat: "${text}"`,
+            source: "24/7 AI Property Advisor Chatbot",
+          }),
+        }).catch((err) => console.error("Chatbot lead dispatch error:", err));
+      }
     }, 600);
   };
 

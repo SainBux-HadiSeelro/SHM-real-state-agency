@@ -84,6 +84,9 @@ flowchart TD
 ```bash
 SHM-real-state-agency/
 ├── app/
+│   ├── api/
+│   │   └── contact/
+│   │       └── route.ts       # 📧 Serverless lead forwarder (dispatches directly to Gmail)
 │   ├── globals.css            # Custom luxury dark theme, gradients & animations
 │   ├── layout.tsx             # Root layout, Inter & Playfair Display fonts
 │   └── page.tsx               # Main application page orchestrating all sections

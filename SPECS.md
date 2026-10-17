@@ -88,6 +88,7 @@ flowchart TD
 | **Testimonials** | [`components/Testimonials.tsx`](file:///d:/1-New%20folder/SHM-real-state-agency/components/Testimonials.tsx) | Authentic customer testimonials & partner ratings |
 | **FAQ Accordion** | [`components/FAQ.tsx`](file:///d:/1-New%20folder/SHM-real-state-agency/components/FAQ.tsx) | Data ownership, AI qualification, CRM sync, and SLA policies |
 | **Contact Desk** | [`components/ContactForm.tsx`](file:///d:/1-New%20folder/SHM-real-state-agency/components/ContactForm.tsx) | Strategy session reservation form, Sain Bux direct desk info |
+| **Contact API** | [`app/api/contact/route.ts`](file:///d:/1-New%20folder/SHM-real-state-agency/app/api/contact/route.ts) | Serverless endpoint forwarding leads to `sainbuxseelro11@gmail.com` |
 | **AI Chatbot** | [`components/AIChatbot.tsx`](file:///d:/1-New%20folder/SHM-real-state-agency/components/AIChatbot.tsx) | Autonomous conversational advisor, bilingual NLP, stateful lead capture |
 | **Footer** | [`components/Footer.tsx`](file:///d:/1-New%20folder/SHM-real-state-agency/components/Footer.tsx) | Executive contact, copyright, navigation anchors, portfolio links |
 
