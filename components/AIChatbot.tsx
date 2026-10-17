@@ -34,7 +34,7 @@ const KNOWLEDGE_BASE = {
   contacts: {
     phoneOffice: "+92 (21) 3587-2400",
     phoneMobile: "+92 (300) 829-4560",
-    email: "acmenetwork@gmail.com",
+    email: "sainbuxseelro11@gmail.com",
     portfolio: "https://sainbux.vercel.app",
     github: "https://github.com/SainBux-HadiSeelro",
     linkedin: "https://www.linkedin.com/in/sain-bux-hadi-seelro",

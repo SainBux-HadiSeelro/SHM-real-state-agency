@@ -133,8 +133,8 @@ export default function ContactForm() {
                   </div>
                   <div>
                     <h4 className="text-xs uppercase font-bold text-slate-400">Official Email & Web</h4>
-                    <a href="mailto:acmenetwork@gmail.com" className="text-sm font-semibold text-white hover:text-gold-400 transition-colors block mt-1">
-                      acmenetwork@gmail.com
+                    <a href="mailto:sainbuxseelro11@gmail.com" className="text-sm font-semibold text-white hover:text-gold-400 transition-colors block mt-1">
+                      sainbuxseelro11@gmail.com
                     </a>
                     <a
                       href="https://sainbux.vercel.app"

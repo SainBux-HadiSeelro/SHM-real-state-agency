@@ -81,6 +81,6 @@ npm run start
 - **Designation**: Lead Solutions Architect
 - **Location**: Clifton, Karachi, Pakistan
 - **Direct Phone**: +92 (21) 3587-2400 / +92 (300) 829-4560
-- **Email**: acmenetwork@gmail.com
+- **Email**: sainbuxseelro11@gmail.com
 - **Portfolio**: [sainbux.vercel.app](https://sainbux.vercel.app)
 - **Agency**: SHM Real Estate Agency
